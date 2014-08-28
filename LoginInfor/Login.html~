@@ -1,0 +1,49 @@
+<div class="navbar" >
+  <div class="navbar-inner">
+    <div class="left sliding"><a href="#" class="back link"><i class="icon icon-back-blue"></i><span>Back</span></a></div>
+    <div class="center sliding">登陆</div>
+  </div>
+</div>
+<div class="pages navbar-through">
+  <div data-page="form-elements" class="page">
+    <div class="page-content">
+      <div class="content-block-title">登陆信息</div>
+      <div class="list-block">
+      	<form id="login" method="post" action="LoginInfor/Login.php">
+        <ul>
+          <li>
+            <div class="item-content">
+              <div class="item-inner">
+                <div class="item-input">
+                  <input type="text" placeholder="user name" id="login_name" name="username" class="username"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+          <li>
+            <div class="item-content">
+              <div class="item-inner">
+                <div class="item-input">
+                  <input type="password" placeholder="password" id="login_password" name="password"/>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        </form>
+      </div>
+  		<div class="content-block">
+        <div class="row">
+          <div class="col-50"><a href="#" class="button button-big button-submit" id="button-login">登录</a></div>
+          <div class="col-50"><a href="#" class="button button-big button-cancel back">Cancel</a></div>
+        </div>
+      </div>
+      <div class="content-block">
+        <div class="row">
+          <p id="lmsg">支持</p></div>
+      </div>
+      </div>  
+    </div>
+  </div>
+</div>

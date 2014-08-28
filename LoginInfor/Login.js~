@@ -1,0 +1,3 @@
+$$('#button-submit').on('click', function () {
+	myApp.alert("test");
+});

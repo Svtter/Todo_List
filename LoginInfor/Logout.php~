@@ -1,0 +1,10 @@
+<?php
+	session_start();
+	session_destroy();
+	if($_SESSION[login] != 1){
+		echo '登出成功';
+	}
+	else {
+		echo '登出失败';
+	}
+	?>

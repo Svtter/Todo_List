@@ -1,0 +1,97 @@
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left sliding"><a href="forms.html" class="back link"><i class="icon icon-back-blue"></i><span>Forms</span></a></div>
+    <div class="center sliding">Form Storage</div>
+    <div class="right"><a href="#" class="link open-panel icon-only"><i class="icon icon-bars-blue"></i></a></div>
+  </div>
+</div>
+<div class="pages navbar-through">
+  <div data-page="form-storage" class="page">
+    <div class="page-content">
+      <div class="content-block">
+        <p>Take a new plan!</p>
+      <div class="content-block-title">Plan Details</div>
+      <form id="demoform-1" class="store-data list-block">
+        <ul>
+          <li>
+            <div class="item-content">
+              <div class="item-media"></div>
+              <div class="item-inner">
+                <div class="item-title label">计划名称</div>
+                <div class="item-input">
+                  <input type="text" placeholder="Plan name" name="plan_name"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-password"></i></div>
+              <div class="item-inner">
+                <div class="item-title label">计划内容</div>
+                <div class="item-input">
+                  <input type="text" placeholder="index" name="index"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="align-top">
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-comment"></i></div>
+              <div class="item-inner">
+                <div class="item-title label"></div>
+                <div class="item-input">
+                  <textarea name="about-me"></textarea>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <!--用ajax技术获取-->
+        <div class="content-block-title">I like</div>
+        <ul>
+          <li>
+            <label class="label-checkbox item-content">
+              <input type="checkbox" name="ks-checkbox" value="Books" checked="checked"/>
+              <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+              <div class="item-inner">
+                <div class="item-title">工作</div>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label class="label-checkbox item-content">
+              <input type="checkbox" name="ks-checkbox" value="Movies"/>
+              <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+              <div class="item-inner">
+                <div class="item-title">生活</div>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label class="label-checkbox item-content">
+              <input type="checkbox" name="ks-checkbox" value="Food"/>
+              <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+              <div class="item-inner">
+                <div class="item-title">学习</div>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label class="label-checkbox item-content">
+              <input type="checkbox" name="ks-checkbox" value="Drinks"/>
+              <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+              <div class="item-inner">
+                <div class="item-title">记账</div>
+              </div>
+            </label>
+          </li>
+        </ul>
+        </div>
+      <!--以上为内容-->
+    </div>
+  </div>
+</div>
