@@ -1,0 +1,6 @@
+#!/bin/bash
+# This file is used for updating source code.
+
+git add --a
+git commit -m 'update'
+git push
